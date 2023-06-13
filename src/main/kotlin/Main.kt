@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    println("Holy Amigos")
+    println("Hello World!!!")
 
     var miBooleanTrue = true
     val miBooleanFalse = false
@@ -52,12 +52,12 @@ fun main(args: Array<String>) {
     miLeta = '2'
     println(miLeta.digitToInt())
 
-    var miTexto = "Hola"
-    println(miTexto)
-    miTexto = "Hola" + " " + "que tal"
-    println(miTexto)
-    miTexto = "Soy el número " + miEnter
-    println(miTexto)
+    var miText = "Hold"
+    println(miText)
+    miText = "Hold" + " " + "que tal"
+    println(miText)
+    miText = "Soy el numerous $miEnter"
+    println(miText)
     miEnter = 2
     println(miEnter)
 
@@ -67,8 +67,8 @@ fun main(args: Array<String>) {
     miLeta = 'g'
     println(miLeta)
 
-    miTexto = "Amigo"
-    println(miTexto)
+    miText = "Amigo"
+    println(miText)
 
     val miByte : Byte = 1
     println(miByte)
