@@ -1,3 +1,3 @@
 
-rootProject.name = "MiPrimerProyectoEnKotlin"
+rootProject.name = "Kotlin_First"
 
