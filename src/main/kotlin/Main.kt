@@ -1,6 +1,8 @@
-fun main(args: Array<String>) {
+fun main() {
+    // Imprimir mensajes iniciales
     println("Hello World!!!")
 
+    // Variables booleanas
     var miBooleanTrue = true
     val miBooleanFalse = false
     println(miBooleanTrue)
@@ -9,34 +11,33 @@ fun main(args: Array<String>) {
     miBooleanTrue = false
     println(miBooleanTrue)
 
-    // como miBooleanFalse es de un VAL, no pupped cambial el valor a true
-
-
-    var miEnter = 1
-    println(miEnter)
-    miEnter = 1 + 2
-    println(miEnter)
-    miEnter = 2 - 1
-    println(miEnter)
-    miEnter = 2 * 1
-    println(miEnter)
-    miEnter = 2 / 1
-    println(miEnter)
-    miEnter += 3
-    println(miEnter)
-    miEnter -= 1
-    println(miEnter)
-    miEnter *= 2
-    println(miEnter)
-    miEnter /= 2
-    println(miEnter)
-    miEnter = 9/2
-    println(miEnter)
-    println(miEnter.toDouble())
+    // Operaciones aritméticas con enteros
+    var miEntero = 1
+    println(miEntero)
+    miEntero = 1 + 2
+    println(miEntero)
+    miEntero = 2 - 1
+    println(miEntero)
+    miEntero = 2 * 1
+    println(miEntero)
+    miEntero = 2 / 1
+    println(miEntero)
+    miEntero += 3
+    println(miEntero)
+    miEntero -= 1
+    println(miEntero)
+    miEntero *= 2
+    println(miEntero)
+    miEntero /= 2
+    println(miEntero)
+    miEntero = 9/2
+    println(miEntero)
+    println(miEntero.toDouble())
 
 
 
 
+    // Operaciones con decimales
     var miDecimal = 1.0
     println(miDecimal)
     miDecimal = 1.0 + 1
@@ -45,6 +46,7 @@ fun main(args: Array<String>) {
     println(miDecimal)
     println(miDecimal.toInt())
 
+    // Operaciones con caracteres y texto
     var miLeta = 'a'
     println(miLeta)
     miLeta += 1
@@ -70,6 +72,7 @@ fun main(args: Array<String>) {
     miText = "Amigo"
     println(miText)
 
+    // Tipos de datos numéricos
     val miByte : Byte = 1
     println(miByte)
 
@@ -82,6 +85,7 @@ fun main(args: Array<String>) {
     val miLong2 = 1L
     println(miLong2)
 
+    // Conversión de tipos
     var suma = miEnter + miByte.toLong()
 
     val miShort2 : Short = 200
